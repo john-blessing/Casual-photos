@@ -1,7 +1,7 @@
 !(function($){
 	$.fn.rmImg = function(){
 		let picNum = 7;
-		var index = 1;
+		let index = 1;
 		$(document).ready(function(){
 			getpics();
 			$("body").bind("click",function(Oevent){
