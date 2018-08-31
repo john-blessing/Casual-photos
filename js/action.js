@@ -2,6 +2,12 @@
 	$.fn.rmImg = function(){
 		let picNum = 7;
 		let index = 1;
+		function print(v){
+			console.log(v)
+		}
+		setTimeout(function(){
+			print('hello world')
+		}, 1000)
 		$(document).ready(function(){
 			getpics();
 			$("body").bind("click",function(Oevent){
