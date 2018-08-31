@@ -1,6 +1,6 @@
 !(function($){
 	$.fn.rmImg = function(){
-		var picNum = 7;
+		let picNum = 7;
 		var index = 1;
 		$(document).ready(function(){
 			getpics();
@@ -44,7 +44,7 @@
 				"z-index":index++
 			},500,function(){
 				$(this).css({"transform":"rotate(0deg)"});
-			});	
+			});
 		}
 		function moveAnyway(id,tar){
 			var arr = [];
