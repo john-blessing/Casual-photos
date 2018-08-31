@@ -6,7 +6,10 @@
 
 class Manager {
   constructor() {
-
+    this.json = {}
+  }
+  commit(key, value) {
+    this.json[key] = value
   }
 
   run() {
